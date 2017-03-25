@@ -18,6 +18,7 @@ public class AdvancedActionsExample {
 	driver.get(baseUrl);
 	//this is a change
 	// the change in maxTest;
+		// edit on hub
 	
 	WebElement one = driver.findElement(By.name("one"));
 	WebElement two = driver.findElement(By.name("two"));
