@@ -16,6 +16,7 @@ public class AdvancedActionsExample {
 //	String baseUrl = "file://D:/Eclipse/workspace/AdvancedActions/ContextClick.html";		
 	
 	driver.get(baseUrl);
+	//this is a change
 	
 	
 	WebElement one = driver.findElement(By.name("one"));
@@ -50,13 +51,13 @@ public class AdvancedActionsExample {
  */
 	
 	
-/*
- * click
-
-	Actions builder =  new Actions(driver);
-	builder.moveToElement(two).click();
-	builder.perform();
- */	
+///*
+// * click
+//
+//	Actions builder =  new Actions(driver);
+//	builder.moveToElement(two).click();
+//	builder.perform();
+// */	
 	
 /*
  * moveByOffset and click
